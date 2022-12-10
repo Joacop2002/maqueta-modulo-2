@@ -1,0 +1,212 @@
+* {
+  /* ACA se colocan los estilos para toda la pagina */
+ background-size: cover;
+
+
+}
+
+.navbar.navbar-expand-lg.bg-danger {
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  
+}
+
+.titulo {
+  color: red;
+  justify-content: center;
+  /* Comando para poner titulos o cosas en el centro*/
+  display: flex;
+  /* Comando para poner titulos o cosas en el centro */
+  position: relative;
+}
+
+.posicion {
+  justify-content: center;
+  display: flex;
+  position: relative;
+}
+
+i.fa-brands.fa-youtube.fa-xl:hover{  /* Agrega color al icono de instagram y si agregamos :hover si apoyo el mouse por arriba aparece el color elejido */
+  color:red;
+}
+
+i.fa-brands.fa-square-instagram.fa-xl:hover{
+  color:burlywood;
+
+}
+
+i.fa-brands.fa-facebook.fa-xl{    /* Cambia el color del icono de facebook y instagram y youtube poniendo una coma agregas mas clases*/
+  color: #fff
+
+}
+
+i.fa-brands.fa-facebook.fa-xl:hover{
+  color:blue;
+}
+
+i.fa-solid.fa-user-lock.fa-xl:hover{
+  color:blue
+
+}
+
+li.list-group-item{      /* Esto es para sacar el borde y el color del fondo del boton de las redes*/
+  background-color: transparent ; 
+  border: none;
+}
+
+button.btn.btn-primary{         /* Esto es para cambiar el color del boton de Guardar Cambios en el login */
+  background-color: black;
+}
+
+button.btn.btn-secondary{    /* Esto es para cambiar el color del boton cerrar en el login */
+  background-color: black !important;
+}
+
+i.fa-brands.fa-youtube.fa-xl{  /*Esto es para cambiar el color icono de youtube */
+  color:  black ;
+}
+
+i.fa-brands.fa-square-instagram.fa-xl{ /* Esto es para cambiar el color icono de instagram */
+  color: black;
+}
+
+.modal-header{                   /*Cambia el color de la cabeza del login */
+  background-color: rgb(146, 220, 9);
+}
+
+.modal-footer{
+  background-color: rgb(146, 220, 9) !important; /*cambia el color de la cabeza de abajo de todo del login */
+}
+
+.modal-body{
+  background-color: rgb(251, 244, 139);  /* Cambia la parte del medio del login */
+}
+ 
+input#inputPassword{
+  background-color: rgb(251, 244, 139);  /* Cambia el recuadro de contrazeña del login */
+}
+
+input#staticEmail{
+  background-color: rgb(251, 244, 139); /* Cambia el color del recuadro de email del login */
+}
+
+section.sobre-mi {  /* Es la clase de las secciones de sobre-mi */
+   background: rgb(34,193,195);
+   background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+section.experiencia-laboral{  /* Clase de seccion experiencia laboral */
+  background: rgb(59,255,92);
+  background: linear-gradient(0deg, rgba(59,255,92,1) 0%, rgba(255,240,207,1) 100%);
+  margin-top: 0rem;
+}
+
+h1.intro {                 /* PARA cambiar el texto sobre mi */
+  padding-right: 1rem;
+  margin-bottom: 5rem;
+}
+
+h1.texto-experiencia {  /* Para ajustar el texto de la seccion experiencia. */
+   padding-top: 2rem;
+}
+
+h1.sobre-mi{   /* Cambia el stilo de la letra de Sobre-i */
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3.letras-exp{    /* Para cambiar de lugar hacia abajo la letra de lugar donde trabajo */
+  margin-top: 2rem;
+}
+
+section.Cursos{        /* Agregar estilos a la seccion Cursos */
+  background-color: aqua;
+}
+h5.cursos-texto{   /* Para cambiar de lugar el texto de los cursos realizados */
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2.cursos{
+  margin-top: 7rem;
+  margin-left: 6rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{ /* Cambia el color de los iconos del carrusel */
+  background-color:black ;
+}
+
+.cambiar-posicion-skills {  /* Cambia la posicion el titulo Hard y Skills */
+  margin-left: 30rem;
+}
+
+.cambiar-posicion-texto-skills{
+  margin-left: 10rem;
+}
+
+.progress{                 /* Cambia de lugar la barra progress */
+  margin-left: 10rem;
+  
+}
+
+section.skills{                   /* Cambia el color del fondo de secciones Skills */
+  background-color: bisque;
+  background-size: cover;
+  display: flex;
+  position: relative;
+}
+.progress-bar{                 /* Cambia el color de la barra de progreso */
+  background: rgb(253,29,29);
+  background: linear-gradient(90deg, rgba(253,29,29,1) 37%, rgba(1,255,52,1) 67%); 
+}
+
+
+.proyecto-text{  /* ALinea el texto hacia la izquiero de la seccion proyecto */
+  text-align: left;
+  margin-top: 3rem;
+  color: brown;
+}
+
+.--bs-border-color{  /* Quiero cambiar el color de fondo del borde de la imagen de computacion */
+ background-color: black !important;
+}
+
+section.proyectos{    /* cambia el color del fondo de la seccion proyectos */
+  background: rgb(253,209,29);
+  background: linear-gradient(0deg, rgba(253,209,29,1) 37%, rgba(218,255,209,1) 43%, rgba(164,255,1,1) 89%); 
+}
+
+h1.proyect-text1{            /* Cambia la alineacion del texto Proytectos */
+  margin-right: 15rem;
+  margin-top: 4rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h4.skills-letra{                             /* Cambia la letra de proyectos */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span.border.border-5{                /* Cambia el borde de los cuadrados en la section hard y skills */
+  border: var(--bs-border-color);
+  border-color: red !important;
+}
+
+section.copyright{
+  background-color: black;
+}
+
+h5.copy{
+  color:#fff
+}
+
+.imagen-compu:hover{      /* Hace que se oscuresca la imagen de la computadora y que se mueva hacia la izquierda */
+  opacity: 0.3;
+   transition: 400ms;
+   transform: translateX(-5%);
+}
+
+.pagina{        /* Ajusta el tamaño de la pantalla */
+  height: 214.5vh;
+  width: 214.5vh;
+}
+  
